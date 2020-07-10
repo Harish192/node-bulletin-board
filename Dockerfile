@@ -1,6 +1,6 @@
 FROM node:current-slim
 
-WORKDIR /home/ekstep-harish/Music/new_home/jenkins
+WORKDIR /usr/src/app
 COPY package.json .
 RUN npm install
 
