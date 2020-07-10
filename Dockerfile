@@ -1,7 +1,6 @@
 FROM node:current-slim
 
-WORKDIR /usr/src/app
-CD bulletin-board-app
+WORKDIR /usr/src/app/bulletin-board-app
 COPY package.json .
 RUN npm install
 
